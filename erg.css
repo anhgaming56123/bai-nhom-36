@@ -39,7 +39,7 @@ a:link {
     color: var(--btn-color);
 }
 a:hover{
-    color: var(--btn-color)
+    color: var(--btn-color);
     transition: all 0.3s ;
 }
 
@@ -119,3 +119,4 @@ footer a {
     text-decoration: none; 
     font-weight: bold; 
 }
+

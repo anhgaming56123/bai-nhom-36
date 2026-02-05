@@ -29,19 +29,24 @@ header {
     margin-top: 5px; 
 }
 
+.intro-box { 
+    --btn-color: #39120c;
+    font-size: larger;
+    background: transparent; 
+    padding-left: 50px; 
+    padding-right: 50px;
+    margin: 10px 0; 
+    border-radius: 25px;
+    text-align: center; 
+}
+
 .container { 
     background-color: transparent;
     display: flex; 
     padding: 20px; 
     min-height: 300px; 
 }
-a:link {
-    color: #ffffff;
-}
-a:hover{
-    color: var(--btn-color);
-    transition: all 0.3s ;
-}
+
 
 nav:hover {
     color: var(--btn-color) ;
@@ -61,11 +66,25 @@ nav {
     padding: 15px; 
     margin-right: 10px; 
     font-size: xx-large;
-    text-align: center;
+    text-align: left;
+    padding-left: 30px;
     box-shadow: 10px 0 500px #ff361780 ;
     transition: all 0.3s ;
 }
-        
+
+a {
+    color: #ffffff;
+}
+
+a:hover{
+    color: var(--btn-color);
+    transition: all 0.3s ;
+}
+
+nav h2 {
+    text-align: center;
+}
+
 .content-box:hover {
     color: var(--btn-color) ;
     background-color: var(--glow-color);
